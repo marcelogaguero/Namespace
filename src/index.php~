@@ -1,9 +1,0 @@
-<?php 
-	namespace main {
-		require_once ("BaseAbstract.php");
-		require_once ("example/Example.php");
-
-		$a = new Example();
-		echo $a->getNamespace();
-	} 
-?>
